@@ -46,4 +46,4 @@ class Random_recommender:
 
         random_recs = random.sample(unique_items, N)
 
-        return random_recs, [0] * N        # Don't need when score is random anyway
+        return random_recs, [0] * N        # Don't need scores when recommendations are random anyway
